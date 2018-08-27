@@ -1,0 +1,95 @@
+.profile-photo .image-cropper {
+    margin-left: 0;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border: solid #dddddd 2px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    box-shadow: 0px 2px 6px #333333;
+}
+img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+.cus-margin-top{
+    margin: 120px auto;
+}
+.custom-pf-card {
+    background-color: #48be58;
+    border: none;
+    margin-bottom: 25px;
+    box-shadow: 1px 3px 6px #888888;
+}
+.edit-pf-form {
+    background-color: #f3f3f3;
+    border: none;
+    box-shadow: 1px 3px 6px #aaaaaa;
+}
+
+.custom-shadow-button {
+    -webkit-box-shadow: 2px 5px 6px -3px black;
+	   -moz-box-shadow: 2px 5px 6px -3px black;
+	        box-shadow: 2px 5px 6px -3px black;
+}
+.cus-margin{
+    margin: 15px;
+    /* background-color: #f3f3f3; */
+    border: none;
+    -webkit-box-shadow: 1px 3px 6px #aaaaaa;
+    box-shadow: 1px 3px 6px #aaaaaa;
+    padding: 10px;
+  }
+  #company-name{
+    font-size: 22px;
+    font-weight: bold;
+  }
+  #price-color{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .bg-color{
+    padding: 30px;
+    margin: 50px auto 50px auto;
+    border-radius: 0px;
+   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2); 
+  }
+  #label-form{
+    font-size: 26px;
+    font-weight: bold;
+    color: #17a2b8;
+  }
+  .align-center{
+    margin: 31px auto 31px auto;
+    max-height: 130px;
+  }
+  .align-center-trash{
+    margin: 70px auto 70px auto;
+    max-height: 130px;
+  }
+  #label-form-red{
+    font-size: 26px;
+    font-weight: bold;
+    color: #d10a0a;
+  }
+  .red{
+    color: #d10a0a !important ;
+  }
+  .cus-margin-red{
+    margin: 15px;
+    /* background-color: #d10a0a;
+    width:  */
+    border: none;
+    -webkit-box-shadow: 1px 3px 6px #d10a0a;
+    box-shadow: 1px 3px 6px #d10a0a;
+    padding: 10px;
+    opacity: 0.8;
+  }
+  .disable-form{
+    pointer-events:none;
+    user-select: none;
+  }

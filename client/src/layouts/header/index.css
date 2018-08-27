@@ -1,0 +1,36 @@
+nav .navbar-brand{
+    color: white !important;
+    font-weight: bold;
+    font-size: 2em;
+    text-shadow: 1px 1px 4px #333;
+}
+nav .navbar-brand>img{
+    width: 50px;
+    height: 50px;
+    margin-right: 16px;
+}
+
+.image-cropper {
+    margin-left: 25px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+    border: solid #dddddd 2px;
+    border-radius: 50%;
+}
+img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+.nav-link{
+    margin-right: 20px;
+    color: white !important;
+}
+.nav-link:hover{
+    background-color: #aad3d3d3;
+    border-radius: 4px
+}

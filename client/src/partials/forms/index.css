@@ -1,0 +1,18 @@
+.parcel-form {
+    padding: 25px;
+}
+
+.form-shadow-control,
+.custom-shadow-select {
+    box-shadow: 1px 1px 3px #ccc;
+}
+.valid-err{
+    border-color: red;
+    /* background-color: red;
+    color: #FFF; */
+}
+#myFooter{
+    padding: 20px;
+    position: relative !important;
+    bottom: 0px !important
+}

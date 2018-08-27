@@ -1,0 +1,66 @@
+.custom-shadow {
+    padding: 20px;
+}
+.cus-no-margin{
+    margin: 0px
+}
+.card-size-mas{
+        background-image: url('./mas-01.png');
+        background-repeat: no-repeat;
+        background-size: 170px;
+        height: 50px;
+        margin: 0px;
+}
+.card-size-wing{
+    background-image: url('./wing.png');
+    background-repeat: no-repeat;
+    background-size: 79px;
+    height: 50px;
+    margin: 0px;
+}
+.card-size-paygo{
+    background-image: url('./paygo.png');
+    background-repeat: no-repeat;
+    background-size: 79px;
+    height: 50px;
+    margin: 0px;
+}
+.card-size-pipay{
+    background-image: url('./pipay.png');
+    background-repeat: no-repeat;
+    background-size: 79px;
+    height: 50px;
+    margin: 0px;
+}
+#master ,#wing ,#paygo, #pipay{
+    margin: 22px auto;
+}
+body label{
+    font-weight: bold;
+}
+.disableForm{
+    pointer-events:none;
+    user-select: none;
+    opacity: 0.7;
+}
+.cus-margin-btn{
+    margin-right:20px; 
+}
+.up-center{
+    margin: 12px auto;
+}
+.top-center{
+    margin: 4px auto;
+}
+.QR{
+    width: 50%;
+}
+.bg-color img{
+    width: 60%;
+}
+.cus-of h1{
+    margin: 70px auto;
+}
+.cus-of img{
+    margin: 30px auto
+}

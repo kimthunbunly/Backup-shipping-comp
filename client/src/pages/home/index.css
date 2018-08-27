@@ -1,0 +1,19 @@
+.main-page {
+    background: url("./bg-img.jpg") center;
+    min-height: 100%;
+}
+.custom-shadow {
+    -webkit-box-shadow: 2px 5px 6px -3px black;
+    -moz-box-shadow: 2px 5px 6px -3px black;
+    box-shadow: 2px 5px 6px -3px black;
+}
+.main-page .card {
+    padding: 8px;
+}
+
+.parcel-overview {
+    padding: 25px;
+}
+.parcel-overview p {
+    text-align: center;
+}

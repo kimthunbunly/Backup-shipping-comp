@@ -1,0 +1,54 @@
+.service-card .service-d-flex .service-company-logo {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    /* border-radius: 10%; */
+    margin: 0 auto;
+}
+.service-card .service-d-flex .service-company-logo > img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+tr td,
+tr th {
+    white-space: nowrap;
+}
+
+label > input {
+    /* HIDE RADIO */
+    visibility: hidden; /* Makes input not-clickable */
+    position: absolute; /* Remove input from document flow */
+}
+label > input + img {
+    /* IMAGE STYLES */
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+label > input:checked + img {
+    /* (RADIO CHECKED) IMAGE STYLES */
+    border: 4px solid rgb(7, 170, 108);
+}
+label > img {
+    height: 32px;
+    width: 32px;
+    margin-right: 12px;
+}
+
+label > img:hover {
+    height: 32px;
+    width: 32px;
+    background-color: gainsboro;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.custom-border {
+    border: 2px solid rgb(7, 170, 108);
+}

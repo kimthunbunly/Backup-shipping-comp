@@ -1,0 +1,11 @@
+.cus-center h3{
+    margin: 10px auto;
+    font-size: 32px;
+}
+#img-size{
+    width:70%;
+    margin: 20px auto 20px auto;
+}
+.cus-float-right{
+    float: right;
+}

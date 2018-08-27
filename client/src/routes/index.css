@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: none;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    -webkit-font-feature-settings: "liga" 0;
+    font-feature-settings: "liga" 0;
+    position: relative;
+} */
+
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    justify-content: center;
+}
+
+.m-main-page {
+    flex: 1 1 auto;
+}
+div {
+    display: block;
+}

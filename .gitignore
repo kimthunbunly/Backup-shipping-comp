@@ -1,0 +1,10 @@
+
+frontend/node_modules/
+old/
+client/node_modules/
+
+client/\.vscode/
+
+node_modules/
+
+\.vscode/

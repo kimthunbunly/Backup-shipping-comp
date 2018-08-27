@@ -1,0 +1,42 @@
+[
+    {
+        "method": "/parcels?",
+        "model": "parcel"
+    },
+    {
+        "method": "/companies",
+        "model": "company"
+    },
+    {
+        "method": "/routes?",
+        "model": "route"
+    },
+    {
+        "method": "/services?",
+        "model": "service"
+    },
+    {
+        "method": "/shipments?",
+        "model": "shipment"
+    },
+    {
+        "method": "/trips?",
+        "model": "trip"
+    },
+    {
+        "method": "/vehicles?",
+        "model": "vehicle"
+    },
+    {
+        "method": "/senders?",
+        "model": "sender"
+    },
+    {
+        "method": "/receivers?",
+        "model": "receiver"
+    },
+    {
+        "method": "/mastertrips?",
+        "model": "mastertrip"
+    }
+]
